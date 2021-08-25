@@ -31,11 +31,21 @@ defmodule IntroTest do
   #   assert Intro.ticketprice(65) == 15
   # end
 
-  test "fibonacci" do
-    assert Intro.fibonacci(5) == 5
+  #test "fibonacci" do
+    #assert Intro.fibonacci(5) == 5
+  #end
+
+  #test "first_of" do
+    #assert Intro.first_of([1,2,3]) == 1
+  #end
+
+  test "last_of" do
+    assert Intro.last_of([1,2,3]) == 3
   end
 
-
+  test "prepend" do
+    assert Intro.prepend(13, [3,7]) == [13,3,7]
+  end
 
 
 end
